@@ -1,12 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Kreatif - [Nama Kamu]</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">My<span>Porto</span></h1>
+      <ul class="nav-links">
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#organisasi">Organisasi</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <div class="toggle" id="toggle">&#9776;</div>
+    </nav>
+  </header>
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale>
-      <title>Bootstrap demo</title>
-      </head>
-      <body>
-      <h1>Hello Word</h1>
-      </body>
-      </html>
+  <section id="profil" class="section">
+    <div class="content fade-in">
+      <img src="https://via.placeholder.com/200" alt="Foto Profil" class="profile-img">
+      <div>
+        <h2>Profil</h2>
+        <p>Halo! Saya <strong>[Nama Kamu]</strong>, seorang mahasiswa dengan minat besar di bidang pengembangan web dan desain antarmuka. 
+        Saya senang membangun website yang tidak hanya fungsional tetapi juga memiliki pengalaman pengguna yang menarik. 
+        Saya sedang mencari kesempatan magang untuk mengembangkan kemampuan dan kontribusi di dunia industri teknologi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pendidikan" class="section bg-alt">
+    <div class="content fade-in">
+      <h2>Pendidikan</h2>
+      <ul class="timeline">
+        <li>
+          <span>2022 - Sekarang</span>
+          <h3>Universitas Teknologi Kreatif</h3>
+          <p>Program Studi: Sistem Informasi</p>
+        </li>
+        <li>
+          <span>2019 - 2022</span>
+          <h3>SMA Negeri 1 Kreativa</h3>
+          <p>Jurusan: IPA</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="organisasi" class="section">
+    <div class="content fade-in">
+      <h2>Organisasi</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Himpunan Mahasiswa Sistem Informasi</h3>
+          <p>Ketua Divisi Media & Kreatif (2023 - Sekarang)</p>
+        </div>
+        <div class="card">
+          <h3>Komunitas Web Developer</h3>
+          <p>Anggota Aktif (2022 - Sekarang)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portofolio" class="section bg-alt">
+    <div class="content fade-in">
+      <h2>Portofolio Pembuatan Website</h2>
+      <div class="portfolio-grid">
+
+        <!-- Proyek 1 -->
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x250?text=Landing+Page+TechNova" alt="TechNova Landing Page">
+          <div class="overlay">
+            <h3>TechNova Landing Page</h3>
+            <p>Website promosi startup teknologi dengan desain modern.</p>
+            <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
+          </div>
+        </div>
+
+        <!-- Proyek 2 -->
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x250?text=EduConnect+E-Learning" alt="EduConnect Platform">
+          <div class="overlay">
+            <h3>EduConnect E-Learning</h3>
+            <p>Platform pembelajaran daring interaktif dengan sistem user login.</p>
+            <p><strong>Stack:</strong> React, Tailwind CSS, Firebase</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak" class="section">
+    <div class="content fade-in">
+      <h2>Kontak & Lamaran Magang</h2>
+      <p>Saya terbuka untuk peluang magang di bidang pengembangan web dan teknologi informasi.</p>
+      <p><strong>Email:</strong> <a href="mailto:namakamu@email.com">namakamu@email.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/namakamu" target="_blank">linkedin.com/in/namakamu</a></p>
+      <a href="mailto:namakamu@email.com" class="btn">Hubungi untuk Magang</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Zazqia Almaddina. Dibuat dengan ❤️ untuk portofolio magang.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
